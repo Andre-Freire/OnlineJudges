@@ -3,7 +3,7 @@
 	LANG: JAVA
 	TASK: transform
  */
-//package usaco; //XXX comment this before submiting
+package usaco; //XXX comment this before submiting
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -18,7 +18,7 @@ import java.util.StringTokenizer;
 
 public class transform {
 
-	public final static boolean TESTING = false; // XXX change this and task name before submit
+	public final static boolean TESTING = true; // XXX change this and task name before submit
 
 	public static void main(String[] args) throws IOException {
 		String task = "transform"; //XXX change this
@@ -28,12 +28,6 @@ public class transform {
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(task + ".out")));
 		solve(in, out);
 		out.close();
-		
-//		boolean[][] a = new boolean[][]{new boolean[]{true, false, true},
-//										new boolean[]{false, false, false},
-//										new boolean[]{false, true, false}};
-//		boolean[][] b = rotate90(a);
-//		System.out.println("ola");
 	}
 	
 	public static void solve(InputReader in, PrintWriter out) throws IOException {
